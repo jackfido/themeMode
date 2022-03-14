@@ -1,7 +1,8 @@
 # themeMode
-# Crear las tareas en crontab para cambiar a modo nocturno de manera automatica
-# Crear con el comando "crontab -e" el siguiente cron:
+Create crontab tasks with command "crontab -e" to set automatic darkmode
 
-0 7-18  * * * /usr/local/bin/themeMode/day.sh # permite el ajuste de 7am a 6pm - cada hora
-0 0-6   * * * /usr/local/bin/themeMode/night.sh # realiza el ajuste de 12am a 6am - cada hora
-0 19-23 * * * /usr/local/bin/themeMode/night.sh # realiza el ajuste de 7pm a 11pm - cada hora
+0 7-18  * * * /usr/local/bin/themeMode/day.sh # allows adjust from 7am to 6pm - (every hour)
+
+0 0-6   * * * /usr/local/bin/themeMode/night.sh # allows adjust from 12am to 6am - (every hour)
+
+0 19-23 * * * /usr/local/bin/themeMode/night.sh # allows adjust from 7pm to 11pm - (every hour)
